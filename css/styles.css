@@ -10,6 +10,7 @@
 }
 
 main{
+    color: #525252;
     text-align: center;
     width: 100vw;
     height: 100vh;
@@ -17,7 +18,30 @@ main{
     padding: 10rem;
 }
 
+main p{
+    margin: 2rem 0;
+}
+
 .container{
-    width: 50%;
+    width: 40%;
     margin: 0rem auto;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-bot{
+    background-color: #fff;
+    padding: 1.5rem;
 }
